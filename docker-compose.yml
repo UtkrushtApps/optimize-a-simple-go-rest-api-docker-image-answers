@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    # Uncomment below if you want to mount your local code for live-reloads during dev
+    # volumes:
+    #   - .:/app
+    environment:
+      - PORT=8080
