@@ -1,0 +1,32 @@
+# Binaries
+server
+
+# Source control
+.git
+.gitignore
+
+# OS / Editor files
+*.swp
+*.swo
+*.DS_Store
+
+# Vendor, if you're not tracking it
+vendor/
+
+# Cache/files
+*.log
+*.tmp
+*.out
+
+# Go test cache and mod cache
+gocache/
+*.test
+
+# Coverage files
+coverage*
+coverage.out
+
+# Exclude all but essential build files and app code
+README*
+docker-compose.yml
+Dockerfile
